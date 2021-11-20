@@ -215,7 +215,7 @@ pre {
   justify-self: flex-end;
 }
 
-.features-sub-head {
+.features-sub-head img {
   width: 300px;
   justify-self: flex-end;
 }
@@ -305,7 +305,7 @@ pre {
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -315,7 +315,7 @@ pre {
   }
 
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -383,6 +383,10 @@ pre {
 
   .navbar ul {
     padding: 10px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .showcase-form {
+    width: 300px;
   }
 }
